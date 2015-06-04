@@ -9,7 +9,7 @@
 
 #include <string>
 
-namespace vobile {
+namespace echaozh {
     std::string format_string (const std::string &pattern,
                                const std::string &ctx,
                                const std::string &utils_file
