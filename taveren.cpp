@@ -58,7 +58,7 @@ parse_pattern (const string &pattern, size_t nc) {
     return make_tuple (lit, string (""), pattern.size ());
 }
 
-namespace vobile {
+namespace echaozh {
     string format_string (const string &pattern, const string &ctx,
                           const string &utils_file, const string &init) {
         lua l;
