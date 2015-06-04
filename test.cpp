@@ -5,7 +5,7 @@
 using namespace std;
 
 int main () {
-    cout << vobile::format_string (
+    cout << echaozh::format_string (
         "abc   #{1+2*3+y^4}   #{hex(x)}   "
         "#{xpath('/root/node[@foo=\"bar\"]/text()')}",
         "{\"x\": \"123\", \"y\":2, "
